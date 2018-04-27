@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista Cores</title>
+</head>
+<body>
+    <h1>
+        Liesta de Cores!
+    </h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Descricao</th>
+                <th>Referencia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% for (cor of cores){%>
+                <tr>
+                    <td><%= cor.cor_codigo%> </td>
+                    <td><%= cor.cor_descricao%> </td>
+                    <td><%= cor.cor_referencia%> </td>
+                </tr>
+            <%}%>
+        </tbody>
+    </table>
+
+</body>
+</html>

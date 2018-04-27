@@ -29,3 +29,7 @@ a:link{
 	text-decoration: none;
 }
 a { color: inherit; } 
+
+body{
+	overflow-x: hidden;
+}
