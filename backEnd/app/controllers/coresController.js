@@ -13,6 +13,9 @@ function listar(req, res) {
 		res.render('../app/views/lista_cores.ejs', {cores: results, title:'Lista'})    
 	});
 
+function listById(id) {
+	alert(id);
+}
 
 			
 
